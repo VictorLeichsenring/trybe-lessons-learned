@@ -6,56 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lessons Learned</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
     <header id="cabecalho">
         <h1 id="titulo">Lições Aprendidas - Trybe</h1>
     </header>
     <main>
-        <img id="minha_foto" src="foto.jpeg" alt="retrato fotografico em corte americano com fudo preto">
-        <ol id="licoes_aprendidas">
-            <li>Javascript - Introdução</li>
-            <li>Zoom, slido, Slack</li>
-            <li>Unix</li>
-            <li>Shell</li>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>HTML- Estruturas</li>
-            <li>CSS- Introdução</li>
-            <li>CSS- posicionamento</li>
-            <li>HTML Semântico</li>
-        </ol>
-        <ul id="licoes_a_aprender">
-            <li>SQL</li>
-            <li>JSON</li>
-            <li>autenticação</li>
-            <li>Python</li>
-            <li>Algoritimos</li>
-            <li>POO</li>
-            <li>Deploy de aplicações</li>
-            <li>APIRest</li>
-            <li>Android</li>
-            <li>django</li>
-        </ul>
-        <article id="meu_aprendizado" class="lado-esquerdo">
-            <h2 class="subtitulo">Meu aprendizado</h2>
-            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae architecto quisquam doloremque beatae perspiciatis deserunt, soluta corrupti, modi molestiae enim accusamus officiis quos ipsum ullam. Eius blanditiis a inventore. Esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ea minus nisi placeat dolore tempore quibusdam praesentium, vero consequuntur. Consectetur accusantium ex amet aut fugiat ab, quis quae facilis excepturi.</p>
-        </article>
-        <aside class="lado-direito">
-            <h2 class="subtitulo">Sobre Mim</h2>
-            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia iure fugit provident aperiam nostrum. Esse non praesentium tempore libero ducimus, quidem reprehenderit iste, repudiandae voluptates incidunt, porro soluta necessitatibus! Quaerat?</p>
-        </aside>
-        <table>
+        <div id="foto">
+            <img id="minha_foto" src="foto.jpeg" alt="retrato fotografico em corte americano com fudo preto">
+        </div>
+        <div id="licoes">
+            <ol id="licoes_aprendidas">
+                <h2 class="subtitulo">Lições Aprendidas</h2>
+                <li>Javascript - Introdução</li>
+                <li>Zoom, slido, Slack</li>
+                <li>Unix</li>
+                <li>Shell</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>HTML- Estruturas</li>
+                <li>CSS- Introdução</li>
+                <li>CSS- posicionamento</li>
+                <li>HTML Semântico</li>
+            </ol>
+            <ul id="licoes_a_aprender">
+                <h2 class="subtitulo">Lições a Aprender</h2>
+                <li>SQL</li>
+                <li>JSON</li>
+                <li>autenticação</li>
+                <li>Python</li>
+                <li>Algoritimos</li>
+                <li>POO</li>
+                <li>Deploy de aplicações</li>
+                <li>APIRest</li>
+                <li>Android</li>
+                <li>django</li>
+            </ul>
+        </div>
+        <div id="bloco_textos">
+            <article id="meu_aprendizado" class="lado-esquerdo">
+                <h2 class="subtitulo">Meu aprendizado</h2>
+                <p class="texto">Na Trybe, iniciei com a introdução ao JavaScript, onde aprendi conceitos como funções, loops, arrays, etc. Fui apresentado às ferramentas Slido e Slack, que nos permitem a comunicação eficazes em projetos em equipe. Estudei o sistema operacional Unix e seus comandos fundamentais para manipulação eficiente de arquivos e pastas. Aprendi Git e GitHub, onde aprendi a controlar versões do código. Com HTML e CSS, aprendi a estruturar páginas web, incluindo box model, posicionamento de elementos e a importância da semântica</p>
+            </article>
+            <aside class="lado-direito">
+                <h2 class="subtitulo">Sobre Mim</h2>
+                <p class="texto">Advogado de Direito Digital, apaixonado por tecnologia. Estou migrando de carreira para me tornar desenvolvedor. Quero conciliar meus conhecimentos jurídicos com  meus novos conhecimentos para criar uma carreira sólida e diferenciada.</p>
+            </aside>
+        </div>
+        <div id="veja_mais">
+        <table id="tabela">
+            <h3 class="subtitulo">Veja mais</h3>
             <tr>
-                <td>Veja mais</td>
-            </tr>
-            <tr>
-                <td><a target="_blank" href="#">Linkedin</a></td>
+                <td><a target="_blank" href="https://www.linkedin.com/in/victor-leichsenring-1511a2185">Linkedin</a></td>
                 <td><a target="_blank" href="https://github.com/VictorLeichsenring">Git Hub</a></td>
-                <td><a target="_blank" href="#">Site</a></td>
-                <td><a target="_blank" href="">Potfólio</a></td>
+                <td><a target="_blank" href="https://www.leichsenring.tech/">Site</a></td>
+                <td><a target="_blank" href="https://victorleichsenring.github.io/">Potfólio</a></td>
             </tr>            
         </table>
+        </div>
+        
         <footer id="rodape">
             <p>Criado por Victor Leichsenring - 2023.</p>
         </footer>
