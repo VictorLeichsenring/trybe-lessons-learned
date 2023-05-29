@@ -6,7 +6,10 @@ header {
     position: fixed;
     top: 0;
     border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 #minha_foto {
     max-width: 500px;
+    margin: 100px;
 }
