@@ -1,5 +1,6 @@
 * {
     background-color: rgb(253, 251, 251);
+    font-family: sans-serif;
 }
 
 header {
@@ -12,4 +13,12 @@ header {
 #minha_foto {
     max-width: 500px;
     margin: 100px;
+}
+
+.subtitulo {
+    font-size: 35px;
+    color: purple;
+}
+.texto {
+    line-height: 25px;;
 }
