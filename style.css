@@ -22,3 +22,13 @@ header {
 .texto {
     line-height: 25px;;
 }
+
+.lado-esquerdo {
+    display: inline-block;
+    max-width: 40%;
+}
+
+.lado-direito {
+    display: inline-block;
+    max-width: 40%;
+}
