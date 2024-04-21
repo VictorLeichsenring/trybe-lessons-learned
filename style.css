@@ -3,6 +3,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+
 header {
     position: fixed;
     top: 0;
@@ -13,10 +14,13 @@ header {
     width: 100%;
     border-radius: 20px;
 }
+
+
 #titulo {
     background-color: black;
     text-align: center;
 }
+
 
 #foto {
     margin-top: 100px;
@@ -66,12 +70,12 @@ header {
 
 .lado-esquerdo {
     display: inline-block;
-    max-width: 40%;
+    max-width: 55%;
 }
 
 .lado-direito {
     display: inline-block;
-    max-width: 40%;
+    max-width: 25%;
 }
 
 #veja_mais {
